@@ -59,8 +59,8 @@ spec:
             mountPath: /etc/passwd
             subPath: passwd
           - name: dsc291-datasets
-            mountPath: /datasets/ds291-sp21-A00-public
-            subPath: "ds291-sp21-A00-public"
+            mountPath: /datasets/cs255-sp22-a00-public
+            subPath: "cs255-sp22-a00-public"
           securityContext:
             runAsUser: $USER_ID
           image: ucsdets/spark-master:2021.3.1
@@ -141,8 +141,8 @@ spec:
             mountPath: /etc/passwd
             subPath: passwd
           - name: dsc291-datasets
-            mountPath: /datasets/ds291-sp21-A00-public
-            subPath: "ds291-sp21-A00-public"
+            mountPath: /datasets/cs255-sp22-a00-public
+            subPath: "cs255-sp22-a00-public"
           image: ucsdets/spark-master:2021.3.1
           imagePullPolicy: IfNotPresent
           securityContext:
